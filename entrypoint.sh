@@ -10,6 +10,8 @@ if [ -z "${TARGET}" ]; then
     TARGET = "default"
 fi
 
+echo "$PWD"
+
 if [ -z "${WORKING_DIRECTORY}" ]; then
     echo "WORKING_DIRECTORY is missing"
 else
