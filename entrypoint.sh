@@ -11,7 +11,8 @@ if [ -z "${TARGET}" ]; then
 fi
 
 echo "$PWD"
-ls
+python3 -V
+python -V
 
 
 if [ -z "${WORKING_DIRECTORY}" ]; then
