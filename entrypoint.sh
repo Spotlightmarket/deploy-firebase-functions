@@ -10,10 +10,6 @@ if [ -z "${TARGET}" ]; then
     TARGET = "default"
 fi
 
-echo "$PWD"
-python3 -V
-python -V
-
 
 if [ -z "${WORKING_DIRECTORY}" ]; then
     echo "WORKING_DIRECTORY is missing"
