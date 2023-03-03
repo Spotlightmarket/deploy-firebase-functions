@@ -11,6 +11,8 @@ if [ -z "${TARGET}" ]; then
 fi
 
 echo "$PWD"
+ls
+
 
 if [ -z "${WORKING_DIRECTORY}" ]; then
     echo "WORKING_DIRECTORY is missing"
